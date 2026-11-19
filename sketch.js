@@ -9,6 +9,7 @@ function draw() {
   background(220);
   angleMode(DEGREES);
   translate(200,200);
+  fill(255);
   r++;
   rotate (r);
   rectMode(CENTER);
