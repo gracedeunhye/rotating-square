@@ -9,8 +9,8 @@ function draw() {
   background(220);
   angleMode(DEGREES);
   translate(200,200);
-  fill(255);
-  r++;
+  fill(255,225,0);
+  r+=10;
   rotate (r);
   rectMode(CENTER);
   square(0,0,100);
